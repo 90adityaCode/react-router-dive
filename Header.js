@@ -10,24 +10,24 @@ class Header extends Component {
     return (
       <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <a class="navbar-brand" href="#">
-          Logo
+          Router
         </a>
 
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              Link 1
-            </a>
+            <Link class="nav-link" to="#">
+              User
+            </Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              Link 2
-            </a>
+            <Link class="nav-link" href="#">
+              Blog
+            </Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              Link 3
-            </a>
+            <Link class="nav-link" href="#">
+              Admin
+            </Link>
           </li>
         </ul>
       </nav>
