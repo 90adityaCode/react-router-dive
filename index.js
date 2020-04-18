@@ -1,24 +1,24 @@
-import React, { Component } from 'react';
-import { render } from 'react-dom';
-import Header from './Header';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './style.css';
+import React, { Component } from "react";
+import { render } from "react-dom";
+import Routers from "Routers";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./style.css";
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      name: 'React'
+      name: "React"
     };
   }
 
   render() {
     return (
       <div>
-         <Header />
+        <Routers />
       </div>
     );
   }
 }
 
-render(<App />, document.getElementById('root'));
+render(<App />, document.getElementById("root"));
