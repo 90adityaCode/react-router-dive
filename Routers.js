@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Header from "./Header";
-const Routers = () => {
+const RouteNav = () => {
   return (
     <Router>
       <Header />
@@ -14,4 +14,4 @@ const Routers = () => {
   );
 };
 
-export default Routers;
+export default RouteNav;

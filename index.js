@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
-import Routers from "Routers";
+import RouteNav from "Routers";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
 
@@ -15,7 +15,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Routers />
+        <RouteNav />
       </div>
     );
   }
