@@ -11,9 +11,9 @@ class Header extends Component {
       <nav className="navbar navbar-default">
         <div className="container-fluid">
           <div className="navbar-header">
-            <a className="navbar-brand" href="#">
+            <Link className="navbar-brand" to='/'>
               React Router <br />Dive..
-            </a>
+            </Link>
           </div>
           <ul className="nav navbar-nav">
             <li className="active">
