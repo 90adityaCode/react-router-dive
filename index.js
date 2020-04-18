@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 import Routers from "./Routers";
+import "bootstrap/dist/css/bootstrap.min.css";
 // import "./style.css";
 
 class App extends Component {
@@ -13,16 +14,9 @@ class App extends Component {
 
   render() {
     return (
-      <>
+      <div className="container">
         <Routers />
-        <div class="container">
-          <h3>Basic Navbar Example</h3>
-          <p>
-            A navigation bar is a navigation header that is placed at the top of
-            the page.
-          </p>
-        </div>
-      </>
+      </div>
     );
   }
 }
