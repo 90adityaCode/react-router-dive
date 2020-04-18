@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Componnet} from "react";
 
 class Header extends Componnet {
   constructor(props) {
@@ -30,3 +30,6 @@ class Header extends Componnet {
     );
   }
 }
+
+
+export default Header;

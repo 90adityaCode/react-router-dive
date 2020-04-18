@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Hello from './Hello';
+import Header from './Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 
@@ -15,7 +15,7 @@ class App extends Component {
   render() {
     return (
       <div>
-         
+         <Header />
       </div>
     );
   }
