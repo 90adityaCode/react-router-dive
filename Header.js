@@ -15,17 +15,17 @@ class Header extends Component {
 
         <ul class="navbar-nav">
           <li class="nav-item">
-            <Link class="nav-link" to="#">
+            <Link class="nav-link" to="/">
               User
             </Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link" href="#">
+            <Link class="nav-link" to="/blog">
               Blog
             </Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link" href="#">
+            <Link class="nav-link" to="admin">
               Admin
             </Link>
           </li>
