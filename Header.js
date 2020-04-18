@@ -1,6 +1,7 @@
-import React, {Componnet} from "react";
+import React, {Component} from "react";
+import { Link } from "react-router-dom";
 
-class Header extends Componnet {
+class Header extends Component {
   constructor(props) {
     super(props);
   }
@@ -11,7 +12,7 @@ class Header extends Componnet {
         <div className="container-fluid">
           <div className="navbar-header">
             <a className="navbar-brand" href="#">
-              React Dive
+              React Router <br />Dive..
             </a>
           </div>
           <ul className="nav navbar-nav">
