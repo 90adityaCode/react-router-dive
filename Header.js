@@ -30,6 +30,11 @@ class Header extends Component {
             </Link>
           </li>
         </ul>
+        <div style={{ "margin-left": "70%" }}>
+          <Link class="nav-link" to="admin">
+            Login
+          </Link>
+        </div>
       </nav>
     );
   }
